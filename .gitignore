@@ -1,0 +1,7 @@
+fashion_data
+images
+labels.json
+readme.txt
+test.txt
+train.txt
+.DS_Store
