@@ -2,23 +2,15 @@
 
 const fs = require("fs");
 
-const labels = {
-  "0": "blouses",
-  "1": "cloak",
-  "2": "coat",
-  "3": "jacket",
-  "4": "long dress",
-  "5": "polo shirt, sport shirt",
-  "6": "robe",
-  "7": "shirt",
-  "8": "short dress",
-  "9": "suit, suit of clothes",
-  "10": "sweater",
-  "11": "jersey, T-shirt, tee shirt",
-  "12": "undergarment, upper body",
-  "13": "uniform",
-  "14": "vest, waistcoat"
-};
+// convert labels.json in a valid labels object
+const labels = {};
+let labelsJson = fs.readFileSync("./labels.json", "utf8").split("\n");
+labelsJson.forEach((line) => {
+  let kvs = line.split(":");
+  if (kvs.length > 1) {
+    labels[kvs[0]] = kvs[1].split("'")[1];
+  }
+});
 
 const PATH = "fashion_data";
 const TRAIN_PATH = "training";
