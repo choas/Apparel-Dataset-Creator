@@ -29,7 +29,6 @@ Object.values(labels).forEach((label) => {
   _mkdir(PATH + "/" + TEST_PATH + "/" + label);
   _mkdir(PATH + "/" + VALID_PATH + "/" + label);
 });
-return 
 
 let train = fs.readFileSync("./train.txt", "utf8").split("\n");
 _copyFiles(train, TRAIN_PATH);

@@ -23,31 +23,47 @@ fashion_data
 │   ├── cloak
 │   ├── coat
 │   ├── jacket
-│   ├── jersey,\ T-shirt,\ tee\ shirt
-│   ├── long\ dress
-│   ├── polo\ shirt,\ sport\ shirt
+│   ├── jersey__t-shirt__tee_shirt
+│   ├── long_dress
+│   ├── polo_shirt__sport_shirt
 │   ├── robe
 │   ├── shirt
-│   ├── short\ dress
-│   ├── suit,\ suit\ of\ clothes
+│   ├── short_dress
+│   ├── suit__suit_of_clothes
 │   ├── sweater
-│   ├── undergarment,\ upper\ body
+│   ├── undergarment__upper_body
 │   ├── uniform
-│   └── vest,\ waistcoat
-└── training
+│   └── vest__waistcoat
+├── training
+│   ├── blouses
+│   ├── cloak
+│   ├── coat
+│   ├── jacket
+│   ├── jersey__t-shirt__tee_shirt
+│   ├── long_dress
+│   ├── polo_shirt__sport_shirt
+│   ├── robe
+│   ├── shirt
+│   ├── short_dress
+│   ├── suit__suit_of_clothes
+│   ├── sweater
+│   ├── undergarment__upper_body
+│   ├── uniform
+│   └── vest__waistcoat
+└── validation
     ├── blouses
     ├── cloak
     ├── coat
     ├── jacket
-    ├── jersey,\ T-shirt,\ tee\ shirt
-    ├── long\ dress
-    ├── polo\ shirt,\ sport\ shirt
+    ├── jersey__t-shirt__tee_shirt
+    ├── long_dress
+    ├── polo_shirt__sport_shirt
     ├── robe
     ├── shirt
-    ├── short\ dress
-    ├── suit,\ suit\ of\ clothes
+    ├── short_dress
+    ├── suit__suit_of_clothes
     ├── sweater
-    ├── undergarment,\ upper\ body
+    ├── undergarment__upper_body
     ├── uniform
-    └── vest,\ waistcoat
+    └── vest__waistcoat
 ```
